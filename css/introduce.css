@@ -1,0 +1,128 @@
+body{
+    margin:0;
+    background-color:rgb(199, 195, 195);
+    background-image:url(../image/turi.jpg);
+    background-size:cover;
+    font-family:serif;
+}
+
+.header{
+    position:fixed;
+    top:0px;
+    margin:0;
+    width:100%;
+    background-color:rgb(158, 156, 156);
+    border-bottom:1px solid white;
+    opacity:0.8;
+}
+
+.title{
+    font-size:25px;
+    margin:4px 30px;
+    color:black;
+    text-shadow:1px 1px 1px rgb(231, 230, 230);
+    font-weight:bold;
+}
+
+
+.icon{
+    position:fixed;
+    top:10px;
+    right:10px;
+    color:black;
+    padding:5px;
+    font-size:20px;
+    z-index:3;
+}
+
+.icon:hover{
+    outline:1px solid white;
+    background-color:rgba(180, 176, 176,0.2);
+    cursor:pointer;
+}
+
+#right-wrapper{
+    position:fixed;
+    top:0;
+    right:0;
+    color:black;
+    background-color:white;
+    height:100%;
+    width:12%;
+    border-left:1px solid black;
+    padding-left:20px;
+    text-align:left;
+    padding-top:50px;
+    display:none;
+}
+
+#right-wrapper a{
+    text-decoration:none;
+    color:black;
+    border-bottom:1px solid black;
+    line-height:35px;
+}
+
+.wrapper-content{
+    height:100%;
+    position:relative;
+}
+
+
+.name{
+    position:absolute;
+    bottom:50px;
+    left:10px;
+    font-size:8px;
+}
+
+main{
+    width:90%;
+    margin:40px auto;
+
+}
+
+.main-title{
+    width:100%;
+    font-size:25px;
+    border-bottom:1px solid black;
+}
+
+.content{
+    margin:30px auto;
+    width:90%;
+}
+
+.introduce{
+    width:95%;
+    margin:0 auto;
+}
+
+.content h1{
+    font-size:15px;
+    border-bottom:1px solid black;
+    margin-bottom:15px;
+}
+
+.content h1:hover{
+    cursor:pointer;
+}
+
+.content p{
+    font-size:12px;
+    width:90%;
+    display:none;
+    margin:0 auto 15px auto;
+}
+
+.question-content{
+    text-align:center;
+    width:90%;
+    display:none;
+    margin:0 auto 15px auto;
+}
+
+.question-content h2{
+    font-size:12px;
+    font-weight:normal;
+}
